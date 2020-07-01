@@ -1,0 +1,359 @@
+/* MEDIA QUERIES FOR 700PX AND ABOVE */
+@media all and (min-width:700px) {
+  .container {
+    max-width: 800px;
+  }
+
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-header.png);
+    height: 100vh;
+  }
+
+  .navbar {
+    padding: 9px;
+  }
+
+  .home-hero {
+    padding: 0% 3% 3% 3%;
+    ;
+  }
+
+  .btn-header {
+    margin-top: 0;
+  }
+
+  /* CLOTHES, MEALS AND EDUCATION SECTION STARTS HERE  */
+  .first-title {
+    border-right: 3px solid #417E29;
+    border-bottom: none;
+    width: 100%;
+    padding-bottom: 69%;
+    padding-right: 43%;
+  }
+
+  /* TRANSFORM SECTION */
+  .third-title_text {
+    text-align: center;
+  }
+
+  /* BANNER STARTS HERE */
+  .banner-pic {
+    height: auto;
+  }
+
+  .banner-text {
+    left: 4%;
+    top: 23%;
+  }
+
+  .banner-text_title {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .banner-text_p {
+    width: 80%;
+  }
+
+  .btn-banner {
+    font-size: 0.667rem;
+  }
+
+  /* REVIEW SECTION */
+  .second-review {
+    margin-top: 0;
+    margin-left: 16%;
+  }
+
+  .user {
+    left: 40%;
+  }
+
+  .review-row {
+    padding: 4%;
+  }
+
+  /* SECOND BANNER */
+  .second-banner-text,
+  .second-banner-p,
+  .second-banner-title {
+    margin-bottom: 0;
+  }
+
+  .second-banner-text,
+  .second-banner-p {
+    font-size: 0.875rem;
+  }
+
+  .second-banner-title {
+    font-size: 1.3rem;
+  }
+
+  .second-banner-section {
+    height: 60vh;
+  }
+
+  /* FORM SECTION */
+  .form-row {
+    padding: 3%;
+  }
+
+  .input-wrap {
+    margin-top: 0;
+  }
+
+  .text-input {
+    margin-top: 4%;
+  }
+
+  .btn-form {
+    margin-left: 48%;
+    margin-top: 0%;
+  }
+
+  .contact-row {
+    padding: 0 4.7% 0 4.4%;
+  }
+
+  .contact-title_text {
+    font-size: 1.2rem;
+  }
+
+  .fa-envelope {
+    font-size: 1.3rem;
+  }
+
+  /* SUBSCRIBE SECTION */
+  .sign-up {
+    text-align: center;
+    padding: 5% 0% 4% 8%;
+    ;
+  }
+
+  .subscribe-section {
+    padding: 0 4.7% 0 4.4%;
+    margin-bottom: 5%;
+  }
+
+  .quick-links,
+  .footer-links {
+    margin: 0;
+  }
+
+  .footer-row {
+    margin-top: 4%;
+  }
+
+  .copy {
+    margin: 2% 0;
+  }
+
+  .links {
+    margin-top: 2%;
+  }
+
+  .connect {
+    margin-top: 0%;
+  }
+}
+
+@media all and (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* navbar */
+  .logo {
+    font-size: 2rem;
+    margin-left: 2%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0 0em 0;
+    overflow: hidden;
+  }
+
+  .nav-item {
+    margin-left: 24px;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  /* navbar ends */
+  /* header hero starts */
+  header {
+    height: 100vh;
+  }
+
+  .home-hero {
+    padding: 18% 3% 3% 3%;
+  }
+
+  .header-body_title {
+    font-size: 2rem;
+  }
+
+  .header-row {
+    padding: 2% 0;
+  }
+
+  .btn-header {
+    font-size: 1rem;
+  }
+
+  /* CLOTHES, MEALS AND EDUCATION SECTION STARTS HERE  */
+  .first-title,
+  .second-title_text {
+    font-size: 1.6rem;
+  }
+
+  .second-title_p {
+    font-size: 1rem;
+  }
+
+  /* TRANSFORM SECTION */
+  .third-title_text {
+    font-size: 1.6rem;
+  }
+
+  .donate-text {
+    font-size: 0.775rem;
+  }
+
+  /* BANNER SECTION */
+  .banner-text {
+    left: 10%;
+  }
+
+  .banner-text_title {
+    font-size: 1.5rem;
+  }
+
+  .banner-text_p {
+    font-size: 0.875rem;
+  }
+
+  .btn-banner {
+    font-size: 0.867rem;
+  }
+
+  /* REVIEW SECTION */
+  .user {
+    left: 42%;
+  }
+
+  .review-text {
+    font-size: 1.1rem;
+  }
+
+  .user-name,
+  .user-title {
+    font-size: 1rem;
+  }
+
+  .review-row {
+    padding: 2%;
+  }
+
+  /* SECOND BANNER */
+  .second-banner-text,
+  .second-banner-p {
+    font-size: 1rem;
+  }
+
+  .second-banner-title {
+    font-size: 1.5rem;
+  }
+
+  /* FORM SECTION */
+  .label-title {
+    font-size: 1.2rem;
+  }
+
+  .btn-form {
+    width: 11%;
+  }
+
+  .form_input::placeholder {
+    font-size: 0.875rem;
+  }
+
+  /* SUBSCRIBE SECTION */
+  .sign-up {
+    font-size: 1.2rem;
+  }
+
+  .sub-row,
+  .sign-up {
+    margin: 0;
+  }
+
+  /* FOOTER */
+  .fab {
+    font-size: 1.4rem;
+  }
+
+  .first-foot-title,
+  .link-title,
+  .connect-title,
+  .link-title {
+    font-size: 1.5rem;
+  }
+
+  .addy-text,
+  .footlink,
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width:1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  /* CLOTHES, MEALS AND EDUCATION SECTION STARTS HERE  */
+  .first-title {
+    padding-bottom: 42%;
+    font-size: 2rem;
+    padding-right: 17%;
+  }
+
+  /* TRANSFORM SECTION */
+  .third-title_text {
+    font-size: 2rem;
+  }
+
+  /* SUBSCRIBE SECTION */
+  .subscribe-section {
+    padding: 0 3%;
+  }
+}
+
+@media all and (min-width:1440px) {
+  .navbar {
+    grid-template-columns: 45% 55%;
+  }
+
+  .navlist {
+    grid-gap: 1em;
+  }
+
+  /* SECOND BANNER */
+  .second-banner-text,
+  .second-banner-p {
+    font-size: 1.2rem;
+  }
+
+  .second-banner-title {
+    font-size: 1.8rem;
+  }
+
+  .second-banner {
+    margin-top: 19%;
+  }
+}
